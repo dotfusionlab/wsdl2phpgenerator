@@ -1,5 +1,5 @@
 {
-    "name": "wsdl2phpgenerator/wsdl2phpgenerator",
+    "name": "dotfusionlab/wsdl2phpgenerator",
     "description": "Simple class library for generating php classes from a wsdl file.",
     "keywords": ["soap", "wsdl"],
     "license": "MIT",
@@ -21,7 +21,7 @@
     "require": {
         "php": "^7.2",
         "ext-soap": "*",
-        "symfony/options-resolver": "^3.4 || ^4.3 || ^5.0",
+        "symfony/options-resolver": "5.4.*",
         "symfony/polyfill-iconv": "^1.13.1"
     },
     "require-dev": {
